@@ -2,11 +2,13 @@
 #include <string.h>
 void main()
 { char Name[40], G[5], answer[10];
-  int i;
+  int i,A;
   do
   {
     do
     {
+      printf("helloooo");
+      scanf("%d", A)
       printf("What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
 
